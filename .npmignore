@@ -1,0 +1,8 @@
+**/node_modules/**
+.husky
+public
+.editorconfig
+.eslintignore
+.eslintrc
+tsconfig.json
+tsconfig.*.json
