@@ -1,6 +1,6 @@
 # strapi-plugin-environment-variables
 
-![CI](https://github.com/yarkovaleksei/strapi-plugin-environment-variables/workflows/Node.js%20CI/badge.svg?branch=master)
+[![CI](https://github.com/yarkovaleksei/strapi-plugin-environment-variables/workflows/Node.js%20CI/badge.svg)](https://github.com/yarkovaleksei/strapi-plugin-environment-variables/actions)
 ![node](https://img.shields.io/node/v/strapi-plugin-environment-variables.svg)
 [![npm](https://img.shields.io/npm/v/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
 
