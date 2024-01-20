@@ -1,0 +1,12 @@
+{
+  "plugin.name": "Переменные окружения",
+  "ui.request": "Загрузить",
+  "ui.search": "Поиск",
+  "messages.total": "Всего {total}",
+  "messages.empty": "Ничего не найдено. Скорее всего произошла ошибка. Обратитесь к администратору.",
+  "messages.loading.error": "Произошла ошибка: {error}. Обратитесь к администратору.",
+  "messages.copy.success": "Переменная успешно скопирована",
+  "table.header.column.name": "Имя",
+  "table.header.column.value": "Значение",
+  "table.actions.copy": "Копировать"
+}

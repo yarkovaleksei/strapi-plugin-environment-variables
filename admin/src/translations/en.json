@@ -1,0 +1,12 @@
+{
+  "plugin.name": "Environment variables",
+  "ui.request": "Load",
+  "ui.search": "Search",
+  "messages.total": "Total {total}",
+  "messages.empty": "Nothing found. Most likely an error occurred. Contact your administrator.",
+  "messages.loading.error": "An error occurred: {error}. Contact your administrator.",
+  "messages.copy.success": "Variable copied to the clipboard",
+  "table.header.column.name": "Name",
+  "table.header.column.value": "Value",
+  "table.actions.copy": "Copy"
+}

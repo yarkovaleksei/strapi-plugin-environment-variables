@@ -1,0 +1,71 @@
+{
+  "name": "strapi-plugin-environment-variables",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Plugin for Strapi SMS, which allows you to view and copy environment variables with which the backend is running",
+  "strapi": {
+    "name": "environment-variables",
+    "displayName": "Environment variables",
+    "description": "Allows you to view and copy environment variables with which the backend is running",
+    "kind": "plugin"
+  },
+  "author": {
+    "name": "Yarkov Aleksei",
+    "url": "https://github.com/yarkovaleksei"
+  },
+  "maintainers": [
+    {
+      "name": "Yarkov Aleksei",
+      "url": "https://github.com/yarkovaleksei"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yarkovaleksei/strapi-plugin-environment-variables.git"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "environment",
+    "variables",
+    "page"
+  ],
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "@strapi/design-system": "^1.14.1",
+    "@strapi/helper-plugin": "^4.17.1",
+    "@strapi/icons": "^1.14.1",
+    "prop-types": "^15.8.1",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-highlight-words": "^0.20.0",
+    "react-intl": "^6.6.1"
+  },
+  "devDependencies": {
+    "@strapi/typescript-utils": "^4.17.1",
+    "@types/node": "^20.11.5",
+    "@types/react": "^18.2.48",
+    "@types/react-copy-to-clipboard": "^5.0.7",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-highlight-words": "^0.16.7",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.34",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11",
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
+  }
+}
