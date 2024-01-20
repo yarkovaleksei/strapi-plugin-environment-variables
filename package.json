@@ -30,17 +30,23 @@
     "variables",
     "page"
   ],
-  "scripts": {
-    "develop": "tsc -p tsconfig.server.json -w",
-    "build": "tsc -p tsconfig.server.json"
-  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
+  "scripts": {
+    "build": "tsc -p tsconfig.server.json",
+    "lint": "eslint .",
+    "clear": "rimraf dist"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix-dry-run"
+    ]
+  },
   "dependencies": {
     "@strapi/design-system": "^1.14.1",
-    "@strapi/helper-plugin": "^4.17.1",
+    "@strapi/helper-plugin": "^4.17.0",
     "@strapi/icons": "^1.14.1",
     "prop-types": "^15.8.1",
     "react-copy-to-clipboard": "^5.1.0",
@@ -48,7 +54,9 @@
     "react-intl": "^6.6.1"
   },
   "devDependencies": {
-    "@strapi/typescript-utils": "^4.17.1",
+    "@strapi/strapi": "^4.17.0",
+    "@strapi/typescript-utils": "^4.17.0",
+    "@types/koa": "^2.14.0",
     "@types/node": "^20.11.5",
     "@types/react": "^18.2.48",
     "@types/react-copy-to-clipboard": "^5.0.7",
@@ -56,13 +64,22 @@
     "@types/react-highlight-words": "^0.16.7",
     "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.34",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-node": "^11.1.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",
+    "rimraf": "^5.0.5",
     "styled-components": "^5.3.11",
-    "typescript": "5.3.3"
+    "typescript": "^5.3.3"
   },
   "peerDependencies": {
+    "@strapi/strapi": "^4.17.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.3.4",

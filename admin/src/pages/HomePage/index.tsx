@@ -10,7 +10,7 @@ import {
   Main,
   Flex,
 } from '@strapi/design-system';
-import {
+import React, {
   useEffect,
   useState,
 } from 'react';
@@ -106,6 +106,8 @@ const HomePage = () => {
         {
           isEmptyObject(variables) && !loading
             && (<EmptyStateLayout
+                  hasRadius={true}
+                  shadow={false}
                   content={{
                     id: getTrad('messages.empty'),
                   }}

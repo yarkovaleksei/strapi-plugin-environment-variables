@@ -1,1 +1,1 @@
-export { default as getTrad } from './getTrad';
+export { getTrad } from './getTrad';

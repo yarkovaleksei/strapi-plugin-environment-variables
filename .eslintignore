@@ -1,2 +1,8 @@
+.husky
+**/node_modules/**
+dist
+public
+LICENSE.md
+README.md
 strapi-admin.js
 strapi-server.js

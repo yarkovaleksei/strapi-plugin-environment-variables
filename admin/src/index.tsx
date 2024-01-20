@@ -1,5 +1,4 @@
 import { prefixPluginTranslations } from '@strapi/helper-plugin';
-
 import pluginPkg from '../../package.json';
 import { getTrad } from './utils';
 import pluginId from './pluginId';
@@ -26,7 +25,7 @@ export default {
         defaultMessage: name,
       },
       Component: async () => {
-        const component = await import('./pages/App');
+        const component = await import(/* webpackChunkName: "environment-variables" */ './pages/App');
 
         return component;
       },
