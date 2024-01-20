@@ -1,3 +1,12 @@
+# strapi-plugin-environment-variables
+
+![node](https://img.shields.io/node/v/strapi-plugin-environment-variables.svg)
+[![npm](https://img.shields.io/npm/v/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
+[![npm](https://img.shields.io/npm/dw/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
+[![npm](https://img.shields.io/npm/dm/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
+[![npm](https://img.shields.io/npm/dy/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
+[![npm](https://img.shields.io/npm/dt/strapi-plugin-environment-variables.svg)](https://www.npmjs.com/package/strapi-plugin-environment-variables)
+
 <div align="center">
   <img style="width: 160px; height: auto;" src="public/logo.png" alt="Logo for Strapi environment variables plugin" />
   <h1>Strapi Environment Variables</h1>
