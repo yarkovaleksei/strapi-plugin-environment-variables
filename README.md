@@ -25,6 +25,7 @@
 ## <a id="features"></a>✨ Features
 * Adds a page where you can view all the environment variables that are available on the system.
 * Any variable and its value can be copied by pressing one button.
+* Ability to display a page depending on role permissions.
 
 ## <a id="installation"></a>💎 Installation
 ```bash

@@ -8,6 +8,14 @@ exports.default = [
         config: {
             policies: [
                 'admin::isAuthenticatedAdmin',
+                {
+                    name: 'admin::hasPermissions',
+                    config: {
+                        actions: [
+                            'plugin::environment-variables.settings.read',
+                        ],
+                    },
+                },
             ],
         },
     },

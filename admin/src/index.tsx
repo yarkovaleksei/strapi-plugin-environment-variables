@@ -1,6 +1,7 @@
 import { prefixPluginTranslations } from '@strapi/helper-plugin';
 import pluginPkg from '../../package.json';
 import { getTrad } from './utils';
+import pluginPermissions from './permissions';
 import pluginId from './pluginId';
 import {
   Initializer,
@@ -25,11 +26,11 @@ export default {
         defaultMessage: name,
       },
       Component: async () => {
-        const component = await import(/* webpackChunkName: "environment-variables" */ './pages/App');
+        const component = await import(/* webpackChunkName: "environment-variables-page" */ './pages/App');
 
         return component;
       },
-      permissions: [],
+      permissions: pluginPermissions.settings,
     });
 
     const plugin = {
@@ -49,7 +50,7 @@ export default {
   }) {
     const importedTrads = await Promise.all(
       (locales as string[]).map((locale) => {
-        return import(`./translations/${locale}.json`)
+        return import(/* webpackChunkName: "environment-variables-translations-[request]" */ `./translations/${locale}.json`)
           .then(({ default: data }) => {
             return {
               data: prefixPluginTranslations(data, pluginId),
