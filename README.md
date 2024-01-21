@@ -12,7 +12,7 @@
 <div align="center">
   <img style="width: 160px; height: auto;" src="public/logo.png" alt="Logo for Strapi environment variables plugin" />
   <h1>Strapi Environment Variables</h1>
-  <p>Plugin for Strapi SMS, which allows you to view and copy environment variables with which the backend is running.</p>
+  <p>Plugin for Strapi CMS, which allows you to view and copy environment variables with which the backend is running.</p>
   <img style="width: 960px; height: auto;" src="public/screenshot.png" alt="Screenshot for Strapi environment variables plugin" />
 </div>
 

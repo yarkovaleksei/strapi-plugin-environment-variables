@@ -2,7 +2,7 @@
   "name": "strapi-plugin-environment-variables",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Plugin for Strapi SMS, which allows you to view and copy environment variables with which the backend is running",
+  "description": "Plugin for Strapi CMS, which allows you to view and copy environment variables with which the backend is running",
   "strapi": {
     "name": "environment-variables",
     "displayName": "Environment variables",
